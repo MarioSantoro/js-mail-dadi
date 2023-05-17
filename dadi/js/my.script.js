@@ -10,7 +10,7 @@ for(let i=0;i<3;i++){
 
     CpuCounter = Math.floor(Math.random()* 6) + 1;
     console.log("Il numero estratto dalla Cpu è :" + CpuCounter);
-    CpuResult = UserCounter + CpuResult;
+    CpuResult = CpuCounter + CpuResult;
 }
 
 if(UserResult>CpuResult){
