@@ -8,7 +8,6 @@ btn.addEventListener("click" ,
         for(let i=0; i<vet1.length;i++){
             if(mail === vet1[i]){
                 result =true;
-                i= vet1.length;
             }
         }
         if(result==true){
